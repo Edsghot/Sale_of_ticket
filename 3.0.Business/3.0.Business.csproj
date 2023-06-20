@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_3._0.Business</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\0.0.DataTransferLayer\0.0.DataTransfer.csproj" />
+    <ProjectReference Include="..\1.0.Helper\1.0.Helper.csproj" />
+    <ProjectReference Include="..\4.0.Repository\4.0.Repository.csproj" />
+    <ProjectReference Include="..\5.0.DataAcces\5.0.DataAcces.csproj" />
+  </ItemGroup>
+
+</Project>
