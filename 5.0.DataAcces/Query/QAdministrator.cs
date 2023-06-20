@@ -6,6 +6,8 @@ using _5._0.DataAcces.Entity;
 namespace _5._0.DataAcces.Query
 {
     public class QAdministrator : IRepoAdministrator
+
+    //hoolaa
     {
         //Query para realizar la inserción de Administradores        
         public int Insert(DtoAdministrator dto)
