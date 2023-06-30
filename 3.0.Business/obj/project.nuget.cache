@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vN2Kb2/TKYOgvvHpYIVcAuXDelzd4gI09iuJzAlqAbNTpy/kinDqlX6htorJKoxRpQ0e0VuKaWPvxZ/MQTJR9w==",
+  "dgSpecHash": "vjvMNjWKRGOGARQdcLNoSee00PiNg4g2zfiTQXhsYwfGZ2pEdIvF752BF9x89aBr952Cqyq4w/ibMWwQPThbdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\BK\\3.0.Business\\3.0.Business.csproj",
+  "projectFilePath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\3.0.Business\\3.0.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jhair\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Jhair\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

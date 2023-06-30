@@ -421,11 +421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+      "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
       "projectName": "0.0.DataTransfer",
-      "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+      "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
       "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\BK\\0.0.DataTransferLayer\\obj\\",
+      "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

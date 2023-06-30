@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5G75OhdJ464TjEQvApQJ1qppOsbqqrLVEFr5uM8HvOY4lcXU5zVBSTR7/qPoiGIE8st9aIlsujaSJXzCEEKsw==",
+  "dgSpecHash": "xqHv7W7t+ca47jqsKli7+7ftzBBLz8ZF8EfPV1wYCrE5NENgiNVoDkSlSqLcH9LTtPj68aqcIVs8JZl4VgKcgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+  "projectFilePath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jhair\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "C:\\Users\\Jhair\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
