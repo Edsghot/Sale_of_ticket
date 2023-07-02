@@ -12,6 +12,8 @@ namespace _5._0.DataAcces.Entity
         #region Properties
         [Key,DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string idStudent { get; set; }
+
+        public string profileImg { get; set; }
         public string dni { get; set; }
         public string name { get; set; }
         public string lastName { get; set; }

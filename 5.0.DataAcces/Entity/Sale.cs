@@ -13,8 +13,9 @@ namespace _5._0.DataAcces.Entity
         public string idSale { get; set; }
         public string idStudent { get; set; }
         public string idOpening { get; set; }       
-        public string account { get; set; }
+        public string couponImg { get; set; }
         public Boolean saleState { get; set; }
+        public int total { get; set; }
         #endregion
 
         #region Parent
