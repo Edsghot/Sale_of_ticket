@@ -34,3 +34,15 @@ C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\0.0.DataTransferLayer\obj\
 C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\0.0.DataTransferLayer\obj\Debug\net6.0\refint\0.0.DataTransfer.dll
 C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.pdb
 C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\0.0.DataTransferLayer\obj\Debug\net6.0\ref\0.0.DataTransfer.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\bin\Debug\net6.0\0.0.DataTransfer.deps.json
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\bin\Debug\net6.0\0.0.DataTransfer.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\bin\Debug\net6.0\0.0.DataTransfer.pdb
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.csproj.AssemblyReference.cache
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.AssemblyInfoInputs.cache
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.AssemblyInfo.cs
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.csproj.CoreCompileInputs.cache
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\refint\0.0.DataTransfer.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.pdb
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\ref\0.0.DataTransfer.dll

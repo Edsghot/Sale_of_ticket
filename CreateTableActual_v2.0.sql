@@ -81,21 +81,6 @@ create table Student(
 		PRIMARY KEY (idStudent)
 )
 go
-
-CREATE TABLE Sale
-( 
-	idSale             	char(36)		NOT NULL ,
-	idStudent        	char(36)		NOT NULL ,
-	idOpening          	char(36)		NOT NULL ,	
-	couponImg           varchar(50)		NOT NULL ,
-	saleState       	bit				NOT NULL ,
-	total				int				NOT NULL,
-	PRIMARY KEY (idSale),
-	FOREIGN KEY (idStudent) REFERENCES Student(idStudent),
-	FOREIGN KEY (idOpening) REFERENCES Opening(idOpening)
-)
-go
-
 CREATE TABLE SaleDetail
 ( 
 	idSaleDetail        char(36)   NOT NULL ,
@@ -104,3 +89,21 @@ CREATE TABLE SaleDetail
 	PRIMARY KEY (idSaleDetail),
 	FOREIGN KEY (idProduct) REFERENCES Product(idProduct)
 )
+go
+
+CREATE TABLE Sale
+( 
+	idSale             	char(36)		NOT NULL ,
+	idStudent        	char(36)		NOT NULL ,
+	idOpening          	char(36)		NOT NULL ,	
+	idSaleDetail		char(36)        NOT NULL,
+	couponImg           varchar(50)		NOT NULL ,
+	saleState       	bit				NOT NULL ,
+	total				int				NOT NULL,
+	PRIMARY KEY (idSale),
+	FOREIGN KEY (idStudent) REFERENCES Student(idStudent),
+	FOREIGN KEY (idOpening) REFERENCES Opening(idOpening),
+	FOREIGN KEY (idSaleDetail) REFERENCES SaleDetail(idSaleDetail),
+)
+go
+
