@@ -58,9 +58,7 @@ namespace _5._0.DataAcces.Query
             using DataBaseContext dbc = new();
             SaleDetail detail = dbc.SaleDetails.Find(dto.idSaleDetail);
             detail.idProduct = dto.idProduct;
-            detail.idSale = dto.idSale;
             detail.date = dto.date;
-            detail.total = dto.total;
             return dbc.SaveChanges();
         }
     }

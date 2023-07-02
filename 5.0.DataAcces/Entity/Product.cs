@@ -17,8 +17,7 @@ namespace _5._0.DataAcces.Entity
 
         #region Child
         //Declarando inversa de relacion y hijo de la entidad Producto
-        [InverseProperty("parentProduct")]//Inversa de la relacion Producto - Venta_detalle
-        public List<SaleDetail> childSaleDetail { get; set; }//Hijo de la entidad
+
         #endregion
     }
 }

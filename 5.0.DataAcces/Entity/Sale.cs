@@ -20,17 +20,17 @@ namespace _5._0.DataAcces.Entity
 
         #region Parent
         //Declarando lo Foreigkey de la entidad Venta
-        [ForeignKey(nameof(idStudent))]
-        public Student parentStudent { get; set; }
+    //    [ForeignKey(nameof(idStudent))]
+ //       public Student parentStudent { get; set; }
 
-        [ForeignKey(nameof(idOpening))]
-        public Opening parentOpening { get; set; }
+   //     [ForeignKey(nameof(idOpening))]
+    //    public Opening parentOpening { get; set; }
         #endregion
 
         #region Child
         //Declarando inversa de relacion y hijo de la entidad Venta
-        [InverseProperty("parentSale")]//Inversa de la relacion Venta -Venta_detalle
-        public List<SaleDetail> childSaleDetail { get; set; }//Hijo de la entidad
+     //   [InverseProperty("parentSale")]//Inversa de la relacion Venta -Venta_detalle
+   //     public List<SaleDetail> childSaleDetail { get; set; }//Hijo de la entidad
         #endregion
     }
 }

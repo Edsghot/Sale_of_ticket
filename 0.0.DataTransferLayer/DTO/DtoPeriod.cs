@@ -15,7 +15,7 @@ namespace _0._0.DataTransfer.DTO
         [Required(ErrorMessage = "El campo\"name\" es requerido.")]
         public string name { get; set; }  
         #region Child
-        public List<DtoOpening> childOpening { get; set; }//Hijo de la entidad
+       // public List<DtoOpening> childOpening { get; set; }//Hijo de la entidad
         #endregion
     }
 }

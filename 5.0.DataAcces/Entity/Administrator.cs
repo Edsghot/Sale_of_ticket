@@ -21,8 +21,8 @@ namespace _5._0.DataAcces.Entity
 
         #region Child
         //Declarando inversa de relacion y hijo de la entidad Administrador
-        [InverseProperty("parentAdministrator")]//Inversa de la relacion
-        public List<AdministratorOpening> childAdministratorOpening { get; set; }//Hijo de la entidad
+     //   [InverseProperty("parentAdministrator")]//Inversa de la relacion
+   //     public List<AdministratorOpening> childAdministratorOpening { get; set; }//Hijo de la entidad
         #endregion
 
     }

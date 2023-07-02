@@ -24,13 +24,13 @@ namespace _0._0.DataTransfer.DTO
 
 
         #region Parent
-        public DtoStudent parentStudent { get; set; }
+       // public DtoStudent parentStudent { get; set; }
 
-        public DtoOpening parentOpening { get; set; }
+       // public DtoOpening parentOpening { get; set; }
         #endregion
 
         #region Child
-        public List<DtoSaleDetail> childSaleDetail { get; set; }
+       // public List<DtoSaleDetail> childSaleDetail { get; set; }
         #endregion
     }
 }

@@ -15,11 +15,11 @@ namespace _5._0.DataAcces.Entity
 
         #region Parent
         //Declarando lo Foreigkey de la entidad Administrador_Apertura
-        [ForeignKey(nameof(idAdministrator))]
-        public Administrator parentAdministrator { get; set; }
+       // [ForeignKey(nameof(idAdministrator))]
+       // public Administrator parentAdministrator { get; set; }
        
-        [ForeignKey(nameof(idOpening))]
-        public Opening parentOpening { get; set; }
+     //   [ForeignKey(nameof(idOpening))]
+      //  public Opening parentOpening { get; set; }
         #endregion
     }
 }
