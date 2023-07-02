@@ -6,7 +6,6 @@ namespace _0._0.DataTransfer.DTO
 {
     public class DtoPeriod
     {
-        [Required(ErrorMessage = "El campo\"idPeriod\" es requerido.")]
         public string idPeriod { get; set; }
         [Required(ErrorMessage = "El campo\"startDate\" es requerido.")]
         public DateTime startDate { get; set; }

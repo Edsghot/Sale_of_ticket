@@ -10,7 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("appsettings.json");
 var secretKey = builder.Configuration.GetSection("settings").GetSection("secretkey").ToString();
 var keyBytes = Encoding.UTF8.GetBytes(secretKey);
-//codigo olor: Posible argumento de referencia nulo para el parámetro "s" en "byte[] Encoding.GetBytes(string s)".
+
+//codigo olor: Posible argumento de referencia nulo para el parámetro "s" en "byte[] Encoding.GetBytes(string s)"
+
 
 builder.Services.AddAuthentication(config =>
 {

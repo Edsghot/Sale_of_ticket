@@ -16,6 +16,7 @@ namespace _0._0.DataTransfer.DTO
         [Required(ErrorMessage = "El campo\"openState\" es requerido.")]
         public Boolean openState { get; set; }
 
+        [Required(ErrorMessage = "El campo\"idPeriod\" es requerido.")]
         public string idPeriod { get; set; }        
 
         #region Parent

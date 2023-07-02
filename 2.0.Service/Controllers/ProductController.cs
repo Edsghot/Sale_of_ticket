@@ -105,5 +105,23 @@ namespace _2._0.Service.Controllers
                 return _so;
             }
         }
+
+        [HttpPost("UploadImage")]
+        public async Task<ActionResult> UploadImage()
+        {
+            bool Results = false;
+            try
+            {
+                var _uploadedfiles = Request.Form.Files;
+                foreach (IFormFile source in _uploadedfiles)
+                {
+                    string Filename = source.FileName;
+                }
+            }catch(Exception ex)
+            {
+
+            }
+            return Ok(Results);
+        }
     }
 }
