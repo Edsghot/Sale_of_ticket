@@ -15,8 +15,8 @@ namespace _0._0.DataTransfer.DTO
         public string idOpening{ get; set; }
 
         #region Parent
-        public DtoAdministrator parentAdministrator { get; set; }
-        public DtoOpening parentOpening { get; set; }
+     //   public DtoAdministrator parentAdministrator { get; set; }
+      //  public DtoOpening parentOpening { get; set; }
         #endregion
 
     }

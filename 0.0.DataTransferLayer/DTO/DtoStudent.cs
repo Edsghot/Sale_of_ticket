@@ -8,6 +8,8 @@ namespace _0._0.DataTransfer.DTO
     {
         public string? idStudent{ get; set; }
 
+        public string profileImg { get; set; }
+
         [Required(ErrorMessage = "El campo\"dni\" es requerido.")]
         [RegularExpression("^[0-9]{8}$", ErrorMessage = " \"El campo \"dni\\\" no cumple el formato correcto\"")]
         public string dni { get; set; }

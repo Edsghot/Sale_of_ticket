@@ -4,6 +4,8 @@ namespace _4._0.Repository.Repository
 {
     public interface IRepoStudent
     {
+
+    
         public int Insert(DtoStudent dto);
         
         public bool ExistsByCode(string code);

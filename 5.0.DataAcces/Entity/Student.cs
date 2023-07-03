@@ -12,6 +12,8 @@ namespace _5._0.DataAcces.Entity
         #region Properties
         [Key,DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string idStudent { get; set; }
+
+        public string profileImg { get; set; }
         public string dni { get; set; }
         public string name { get; set; }
         public string lastName { get; set; }
@@ -30,8 +32,8 @@ namespace _5._0.DataAcces.Entity
 
         #region Child
         //Declarando inversa de relacion y hijo de la entidad Estudiante
-        [InverseProperty("parentStudent")]//Inversa de la relacion Estudiante -Venta
-        public List<Sale> childSale { get; set; }//Hijo de la entidad  
+      //  [InverseProperty("parentStudent")]//Inversa de la relacion Estudiante -Venta
+      //  public List<Sale> childSale { get; set; }//Hijo de la entidad  
         #endregion
     }
 }

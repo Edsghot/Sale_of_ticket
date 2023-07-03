@@ -16,8 +16,8 @@ namespace _5._0.DataAcces.Entity
 
         #region Child
         //Declarando inversa de relacion y hijo de la entidad Periodo
-        [InverseProperty("parentPeriod")]//Inversa de la relacion
-        public List<Opening> childOpening { get; set; }//Hijo de la entidad
+      //  [InverseProperty("parentPeriod")]//Inversa de la relacion
+       // public List<Opening> childOpening { get; set; }//Hijo de la entidad
         #endregion
     }
 }

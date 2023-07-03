@@ -2,6 +2,8 @@ using _0._0.DataTransfer.DTO;
 using _2._0.Service.Generic;
 using _2._0.Service.ServiceObject;
 using _3._0.Business.Business.Sale;
+using CloudinaryDotNet.Actions;
+using CloudinaryDotNet;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -37,6 +39,22 @@ namespace _2._0.Service.Controllers
                 _so.mo.exception();
                 return _so;
             }
+        }
+
+        private async Task<string> Upload(string base64)
+        {
+            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
+            Cloudinary cloudinary = new Cloudinary(account);
+            cloudinary.Api.Secure = true;
+
+            var uploadParams = new ImageUploadParams()
+            {
+                File = new FileDescription(Guid.NewGuid().ToString(), new MemoryStream(Convert.FromBase64String(base64))),
+                PublicId = "olympic_flag"
+            };
+            var respuesta = await cloudinary.UploadAsync(uploadParams);
+
+            return respuesta.SecureUrl.AbsoluteUri;
         }
 
         [HttpGet]

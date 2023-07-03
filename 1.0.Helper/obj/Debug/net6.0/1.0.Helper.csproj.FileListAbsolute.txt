@@ -34,3 +34,15 @@ C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\1.0.Helper\obj\Debug\net6.
 C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\1.0.Helper\obj\Debug\net6.0\refint\1.0.Helper.dll
 C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\1.0.Helper\obj\Debug\net6.0\1.0.Helper.pdb
 C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\1.0.Helper\obj\Debug\net6.0\ref\1.0.Helper.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\bin\Debug\net6.0\1.0.Helper.deps.json
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\bin\Debug\net6.0\1.0.Helper.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\bin\Debug\net6.0\1.0.Helper.pdb
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.csproj.AssemblyReference.cache
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.AssemblyInfoInputs.cache
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.AssemblyInfo.cs
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.csproj.CoreCompileInputs.cache
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\refint\1.0.Helper.dll
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.pdb
+D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\ref\1.0.Helper.dll

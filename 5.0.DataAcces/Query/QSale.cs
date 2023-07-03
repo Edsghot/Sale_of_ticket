@@ -58,7 +58,7 @@ namespace _5._0.DataAcces.Query
             Sale sale = dbc.Sales.Find(dto.idSale);
             sale.idStudent = dto.idStudent;
             sale.idOpening = dto.idOpening;
-            sale.account = dto.account;
+            sale.couponImg = dto.couponImg;
             sale.saleState = dto.saleState;
             return dbc.SaveChanges();
         }

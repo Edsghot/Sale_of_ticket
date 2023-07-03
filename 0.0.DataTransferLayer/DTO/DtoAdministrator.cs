@@ -29,7 +29,7 @@ namespace _0._0.DataTransfer.DTO
         public string dni { get; set; }
 
         #region Child
-        public List<DtoAdministratorOpening> childAdministratorOpening { get; set; }//Hijo de la entidad        
+      //  public List<DtoAdministratorOpening> childAdministratorOpening { get; set; }//Hijo de la entidad        
         #endregion
     }
 }
