@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {}
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj": {}
   },
   "projects": {
-    "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj",
         "projectName": "1.0.Helper",
-        "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
-        "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\obj\\",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

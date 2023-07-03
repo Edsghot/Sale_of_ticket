@@ -22,7 +22,7 @@ namespace _2._0.Service.Controllers
         {
             try
             {
-                _so.mo = ValidatePartDto(so.dtoSale, new string[] {
+               _so.mo = ValidatePartDto(so.dtoSale, new string[] {
                     "name"
                 });
 
@@ -41,21 +41,7 @@ namespace _2._0.Service.Controllers
             }
         }
 
-        private async Task<string> Upload(string base64)
-        {
-            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
-            Cloudinary cloudinary = new Cloudinary(account);
-            cloudinary.Api.Secure = true;
-
-            var uploadParams = new ImageUploadParams()
-            {
-                File = new FileDescription(Guid.NewGuid().ToString(), new MemoryStream(Convert.FromBase64String(base64))),
-                PublicId = "olympic_flag"
-            };
-            var respuesta = await cloudinary.UploadAsync(uploadParams);
-
-            return respuesta.SecureUrl.AbsoluteUri;
-        }
+        
 
         [HttpGet]
         [Route("[action]")]
