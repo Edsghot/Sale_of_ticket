@@ -19,10 +19,11 @@ namespace _0._0.DataTransfer.DTO
         [Required(ErrorMessage = "El campo\"idSaleDetail\" es requerido.")]
         public string idSaleDetail { get; set; }
 
+        [Required(ErrorMessage = "El campo\"couponImg\" es requerido.")]
         public string couponImg { get; set; }
 
-        [Required(ErrorMessage = "El campo\"saleState\" es requerido.")]
         public Boolean saleState { get; set; }
+        [Required(ErrorMessage = "El campo\"total\" es requerido.")]
 
         public int total { get; set; }
 
