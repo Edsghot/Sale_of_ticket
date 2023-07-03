@@ -1,6 +1,8 @@
 using _0._0.DataTransfer.DTO;
 using _0._0.DataTransfer.DtoAdditional;
 using _3._0.Business.Generic;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +15,27 @@ namespace _3._0.Business.Business.Sale
         public DtoMessage Insert(DtoSale dto)
         {
             dto.idSale = Guid.NewGuid().ToString();
+            dto.couponImg = Upload(dto.couponImg).Result;
             _repoSale.Insert(dto);
             _mo.listMessage.Add("operacion realizada");
             _mo.success();
             return _mo;
+        }
+
+        private async Task<string> Upload(string base64)
+        {
+            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
+            Cloudinary cloudinary = new Cloudinary(account);
+            cloudinary.Api.Secure = true;
+
+            var uploadParams = new ImageUploadParams()
+            {
+                File = new FileDescription(Guid.NewGuid().ToString(), new MemoryStream(Convert.FromBase64String(base64))),
+                PublicId = "olympic_flag"
+            };
+            var respuesta = await cloudinary.UploadAsync(uploadParams);
+
+            return respuesta.SecureUrl.AbsoluteUri;
         }
 
         public (DtoMessage, List<DtoSale>) GetAll()

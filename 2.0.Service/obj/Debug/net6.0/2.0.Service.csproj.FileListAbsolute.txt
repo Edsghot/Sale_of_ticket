@@ -367,3 +367,4 @@ D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\2.0.Service\obj\Debug\net6.0\2.
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\2.0.Service\obj\Debug\net6.0\2.0.Service.genruntimeconfig.cache
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\2.0.Service\obj\Debug\net6.0\ref\2.0.Service.dll
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\2.0.Service\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\Jhair\Desktop\SaleOfTicket\Sale_of_ticket_BK\2.0.Service\bin\Debug\net6.0\CloudinaryDotNet.dll
