@@ -82,3 +82,24 @@ D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\refint\3.0.Business.dll
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.pdb
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\ref\3.0.Business.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\3.0.Business.deps.json
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\3.0.Business.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\3.0.Business.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\0.0.DataTransfer.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\1.0.Helper.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\4.0.Repository.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\5.0.DataAcces.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\0.0.DataTransfer.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\1.0.Helper.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\4.0.Repository.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\bin\Debug\net6.0\5.0.DataAcces.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.csproj.AssemblyReference.cache
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.AssemblyInfoInputs.cache
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.AssemblyInfo.cs
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.csproj.CoreCompileInputs.cache
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.csproj.CopyComplete
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\refint\3.0.Business.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\3.0.Business.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\3.0.Business\obj\Debug\net6.0\ref\3.0.Business.dll

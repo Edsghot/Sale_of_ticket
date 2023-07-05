@@ -46,3 +46,15 @@ D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\refint\1.0.Helper.dll
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.pdb
 D:\PROYECTO_PERSONAL\Venta_Ticket\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\ref\1.0.Helper.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\bin\Debug\net6.0\1.0.Helper.deps.json
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\bin\Debug\net6.0\1.0.Helper.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\bin\Debug\net6.0\1.0.Helper.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.csproj.AssemblyReference.cache
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.AssemblyInfoInputs.cache
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.AssemblyInfo.cs
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\refint\1.0.Helper.dll
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\1.0.Helper.pdb
+C:\Users\Luis Fernando\Documents\Unamba\Ciclo 5\Desarrollo de Software 2\Proyecto Final\Backend2\Sale_of_ticket\1.0.Helper\obj\Debug\net6.0\ref\1.0.Helper.dll

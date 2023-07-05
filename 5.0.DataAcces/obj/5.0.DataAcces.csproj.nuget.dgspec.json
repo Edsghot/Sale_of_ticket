@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\5.0.DataAcces\\5.0.DataAcces.csproj": {}
+    "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+    "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
         "projectName": "0.0.DataTransfer",
-        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
-        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\obj\\",
+        "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\Luis Fernando\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jhair\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Luis Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj": {
+    "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
         "projectName": "1.0.Helper",
-        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj",
-        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\obj\\",
+        "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
+        "packagesPath": "C:\\Users\\Luis Fernando\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\1.0.Helper\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jhair\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Luis Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +83,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -132,25 +122,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\4.0.Repository.csproj": {
+    "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\4.0.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
         "projectName": "4.0.Repository",
-        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\4.0.Repository.csproj",
-        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
+        "packagesPath": "C:\\Users\\Luis Fernando\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\4.0.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jhair\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Luis Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,15 +144,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
-                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+              "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
               }
             }
           }
@@ -202,25 +187,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\5.0.DataAcces\\5.0.DataAcces.csproj": {
+    "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\5.0.DataAcces\\5.0.DataAcces.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj",
         "projectName": "5.0.DataAcces",
-        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\5.0.DataAcces\\5.0.DataAcces.csproj",
-        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\5.0.DataAcces\\obj\\",
+        "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj",
+        "packagesPath": "C:\\Users\\Luis Fernando\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\5.0.DataAcces\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jhair\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Luis Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,21 +209,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
-                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+              "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
               },
-              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj": {
-                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj"
+              "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+                "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj"
               },
-              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\4.0.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\4.0.Repository.csproj"
+              "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
+                "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj"
               }
             }
           }
@@ -294,7 +274,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

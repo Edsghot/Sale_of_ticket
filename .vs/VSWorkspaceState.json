@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\2.0.Service",
+    "\\2.0.Service\\Controllers"
   ],
-  "SelectedNode": "\\2.0.Service",
+  "SelectedNode": "\\2.0.Service\\Controllers\\SaleController.cs",
   "PreviewInSolutionExplorer": false
 }
