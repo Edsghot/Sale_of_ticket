@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {}
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
         "projectName": "0.0.DataTransfer",
-        "projectPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
-        "packagesPath": "C:\\Users\\Luis Fernando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis Fernando\\Documents\\Unamba\\Ciclo 5\\Desarrollo de Software 2\\Proyecto Final\\Backend2\\Sale_of_ticket\\0.0.DataTransferLayer\\obj\\",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Luis Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

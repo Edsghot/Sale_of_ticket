@@ -4,12 +4,15 @@ using _2._0.Service.Generic;
 using _2._0.Service.ServiceObject;
 using _3._0.Business;
 using _3._0.Business.Student;
+using CloudinaryDotNet.Actions;
+using CloudinaryDotNet;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using _3._0.Business.Business.SaleDetail;
 
 namespace _2._0.Service.Controllers
 {
@@ -57,6 +60,34 @@ namespace _2._0.Service.Controllers
                 return StatusCode(StatusCodes.Status401Unauthorized, new { token = " " });
             }
         }
+        [HttpPost]
+        [Route("[action]")]
+        public async Task<ActionResult<String>> SubirImagen(String base64)
+        {
+            // Llamar a la función Upload y obtener la URL
+            
+            String imageUrl = await Upload(base64);
+
+
+            // Devolver la URL como respuesta
+            return imageUrl;
+        }
+        private async Task<string> Upload(string base64)
+        {
+            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
+            Cloudinary cloudinary = new Cloudinary(account);
+            cloudinary.Api.Secure = true;
+
+            var uploadParams = new ImageUploadParams()
+            {
+                File = new FileDescription(Guid.NewGuid().ToString(), new MemoryStream(Convert.FromBase64String(base64))),
+                PublicId = "olympic_flag"
+            };
+            var respuesta = await cloudinary.UploadAsync(uploadParams);
+
+            return respuesta.SecureUrl.AbsoluteUri;
+        }
+
 
         [HttpPost]
         [Route("[action]")]
