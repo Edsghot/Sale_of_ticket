@@ -62,31 +62,35 @@ namespace _2._0.Service.Controllers
         }
         [HttpPost]
         [Route("[action]")]
-        public async Task<ActionResult<String>> SubirImagen(String base64)
+        public async Task<ActionResult<String>> SubirImagen(IFormFile file)
         {
             // Llamar a la función Upload y obtener la URL
             
-            String imageUrl = await Upload(base64);
+            String imageUrl = await Upload(file);
 
 
             // Devolver la URL como respuesta
             return imageUrl;
         }
-        private async Task<string> Upload(string base64)
+        private async Task<string> Upload(IFormFile file)
         {
-            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
+            Account account = new Account("dm2vlcipm", "937275526697616", "HeRqnltE8mTtAJRpPqc1udxv7Ro");
             Cloudinary cloudinary = new Cloudinary(account);
             cloudinary.Api.Secure = true;
 
-            var uploadParams = new ImageUploadParams()
+            using (var stream = file.OpenReadStream())
             {
-                File = new FileDescription(Guid.NewGuid().ToString(), new MemoryStream(Convert.FromBase64String(base64))),
-                PublicId = "olympic_flag"
-            };
-            var respuesta = await cloudinary.UploadAsync(uploadParams);
+                var uploadParams = new ImageUploadParams()
+                {
+                    File = new FileDescription(file.FileName, stream),
+                    PublicId = "olympic_flag"
+                };
+                var respuesta = await cloudinary.UploadAsync(uploadParams);
 
-            return respuesta.SecureUrl.AbsoluteUri;
+                return respuesta.SecureUrl.AbsoluteUri;
+            }
         }
+
 
 
         [HttpPost]
