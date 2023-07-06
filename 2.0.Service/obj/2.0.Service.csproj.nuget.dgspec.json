@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
         "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\obj\\",
+=======
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "projectName": "0.0.DataTransfer",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\obj\\",
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,6 +79,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -73,6 +88,16 @@
         "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
         "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\obj\\",
+=======
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
+        "projectName": "1.0.Helper",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\obj\\",
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,6 +151,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -134,6 +160,16 @@
         "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
         "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\2.0.Service\\obj\\",
+=======
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj",
+        "projectName": "2.0.Service",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\2.0.Service\\obj\\",
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,6 +186,7 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
                 "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
               },
@@ -158,6 +195,16 @@
               },
               "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj": {
                 "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj"
+=======
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+              },
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj"
+              },
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj"
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
               }
             }
           }
@@ -208,6 +255,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -216,6 +264,16 @@
         "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
         "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\obj\\",
+=======
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
+        "projectName": "3.0.Business",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\3.0.Business\\obj\\",
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,6 +290,7 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
                 "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
               },
@@ -243,6 +302,19 @@
               },
               "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
                 "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj"
+=======
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+              },
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj"
+              },
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj"
+              },
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj"
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
               }
             }
           }
@@ -290,6 +362,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -298,6 +371,16 @@
         "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
         "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\obj\\",
+=======
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
+        "projectName": "4.0.Repository",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\obj\\",
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -314,8 +397,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
                 "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+=======
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
               }
             }
           }
@@ -355,6 +443,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -363,6 +452,16 @@
         "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
         "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\obj\\",
+=======
+    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj",
+        "projectName": "5.0.DataAcces",
+        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj",
+        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\5.0.DataAcces\\obj\\",
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -379,6 +478,7 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
                 "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
               },
@@ -387,6 +487,16 @@
               },
               "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
                 "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj"
+=======
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+              },
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj"
+              },
+              "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
+                "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj"
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
               }
             }
           }

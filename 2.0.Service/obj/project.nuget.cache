@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2D9D5aLK0l7SoiCVEwKgYf45Pg54SynWNzKYDSG45zZrQIhzQq/rnHiBVoov9CUSu2yDGwnA3eZXFjGBCXVnKw==",
   "success": true,
   "projectFilePath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj",
+=======
+  "dgSpecHash": "mrNCPXBLUDZVj/zoxIvmMfiO6SV2j4TTw3M8blzwoeGDtGkTW7hSKve6u/1GElkjyITBt0h79C6dL4s3wRraJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj",
+>>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
   "expectedPackageFiles": [
     "C:\\Users\\erick\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
