@@ -3,6 +3,7 @@ using _4._0.Repository.Repository;
 using _5._0.DataAcces.Connection;
 using _5._0.DataAcces.Entity;
 using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
 
 namespace _5._0.DataAcces.Query

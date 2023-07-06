@@ -64,35 +64,13 @@ namespace _2._0.Service.Controllers
         [Route("[action]")]
         public IActionResult SubirImagen(IFormFile file)
         {
-            // Llamar a la función Upload y obtener la URL
+            BusinessStudent businessStudent = new();
             
-            String imageUrl = Upload(file);
-
-
-            // Devolver la URL como respuesta
+            String imageUrl = businessStudent.subirImagen(file);
+         
             return StatusCode(StatusCodes.Status200OK, new { url = imageUrl });
         }
-        private string Upload(IFormFile file)
-        {
-            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
-            Cloudinary cloudinary = new Cloudinary(account);
-            cloudinary.Api.Secure = true;
-
-            using (var stream = file.OpenReadStream())
-            {
-                var uploadParams = new ImageUploadParams()
-                {
-                    File = new FileDescription(file.FileName, stream),
-                    PublicId = "olympic_flag"
-                };
-                var respuesta = cloudinary.Upload(uploadParams);
-
-                return respuesta.SecureUrl.AbsoluteUri;
-            }
-        }
-
-
-
+   
 
         [HttpPost]
         [Route("[action]")]
