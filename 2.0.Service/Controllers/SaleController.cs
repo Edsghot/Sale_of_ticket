@@ -31,6 +31,7 @@ namespace _2._0.Service.Controllers
                     return _so;
                 }
 
+                so.dtoSale.couponImg = "Hola ";
                 _so.mo = _business.Insert(so.dtoSale);
                 return _so;
             }catch (Exception e)

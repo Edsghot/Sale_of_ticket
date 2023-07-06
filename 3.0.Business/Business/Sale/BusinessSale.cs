@@ -15,7 +15,6 @@ namespace _3._0.Business.Business.Sale
         public DtoMessage Insert(DtoSale dto)
         {
             dto.idSale = Guid.NewGuid().ToString();
-            dto.couponImg = Upload(dto.couponImg).Result;
             dto.saleState = false;
             _repoSale.Insert(dto);
             _mo.listMessage.Add("operacion realizada");

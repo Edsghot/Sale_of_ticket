@@ -3542,24 +3542,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jhair\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\erick\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\3.0.Business\\3.0.Business.csproj",
+      "projectUniqueName": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
       "projectName": "3.0.Business",
-      "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\3.0.Business\\3.0.Business.csproj",
-      "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\3.0.Business\\obj\\",
+      "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
+      "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
+      "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Jhair\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3567,24 +3562,23 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
-              "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
             },
-            "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj": {
-              "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\1.0.Helper\\1.0.Helper.csproj"
+            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj"
             },
-            "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\4.0.Repository.csproj": {
-              "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\4.0.Repository\\4.0.Repository.csproj"
+            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
+              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj"
             },
-            "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\5.0.DataAcces\\5.0.DataAcces.csproj": {
-              "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\Sale_of_ticket_BK\\5.0.DataAcces\\5.0.DataAcces.csproj"
+            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
+              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj"
             }
           }
         }
