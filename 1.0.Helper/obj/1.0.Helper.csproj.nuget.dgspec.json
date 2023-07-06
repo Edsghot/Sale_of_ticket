@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
         "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\obj\\",
-=======
-    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
-        "projectName": "1.0.Helper",
-        "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj",
-        "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\1.0.Helper\\obj\\",
->>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "atQIFCBBcd27TlPCLa5pWCC2rCKNQ2Sz6qaJtQ6/D26ubYX9GzxZw4zuWT7Wr7owOiv50Gqq3/56ySbzEGBZfA==",
   "success": true,
   "projectFilePath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
-=======
-  "dgSpecHash": "Hgi48IH26GvWmt+2OaUgyuugfwcfENkeJJyb2gAecGr+286vHe82WSm59czytpCybq2vXeYLRMoQYnkLj8F50Q==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
->>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
   "expectedPackageFiles": [
     "C:\\Users\\erick\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -80,5 +74,12 @@
     "C:\\Users\\erick\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

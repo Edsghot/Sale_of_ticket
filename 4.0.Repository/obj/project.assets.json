@@ -439,19 +439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
       "projectName": "4.0.Repository",
       "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
       "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
       "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
-      "projectName": "4.0.Repository",
-      "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj",
-      "packagesPath": "C:\\Users\\Jhair\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\4.0.Repository\\obj\\",
->>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -468,13 +460,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< HEAD
             "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
               "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
-=======
-            "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
-              "projectPath": "C:\\Users\\Jhair\\Desktop\\SaleOfTicket\\SaleOfTicket-BK\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
->>>>>>> 0edbc97d1ee4cffa32d6a9fd29402521e2ab0aef
             }
           }
         }
@@ -513,5 +500,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
