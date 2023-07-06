@@ -2,6 +2,8 @@
 using _4._0.Repository.Repository;
 using _5._0.DataAcces.Connection;
 using _5._0.DataAcces.Entity;
+using CloudinaryDotNet;
+using Microsoft.AspNetCore.Http;
 
 namespace _5._0.DataAcces.Query
 {
@@ -13,6 +15,25 @@ namespace _5._0.DataAcces.Query
             using DataBaseContext dbc = new();
             dbc.Students.Add(InitAutoMapper.mapper.Map<Student>(dto));
             return dbc.SaveChanges();
+        }
+
+        public string subirImagen(IFormFile file)
+        {
+            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
+            Cloudinary cloudinary = new Cloudinary(account);
+            cloudinary.Api.Secure = true;
+
+            using (var stream = file.OpenReadStream())
+            {
+                var uploadParams = new ImageUploadParams()
+                {
+                    File = new FileDescription(file.FileName, stream),
+                    PublicId = "olympic_flag"
+                };
+                var respuesta = cloudinary.Upload(uploadParams);
+
+                return respuesta.SecureUrl.AbsoluteUri;
+            }
         }
 
         //Query para realizar el listado de los estudiantes de la base de datos
