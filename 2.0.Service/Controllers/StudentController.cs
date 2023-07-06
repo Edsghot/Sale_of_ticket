@@ -62,19 +62,19 @@ namespace _2._0.Service.Controllers
         }
         [HttpPost]
         [Route("[action]")]
-        public async Task<ActionResult<String>> SubirImagen(IFormFile file)
+        public IActionResult SubirImagen(IFormFile file)
         {
             // Llamar a la función Upload y obtener la URL
             
-            String imageUrl = await Upload(file);
+            String imageUrl = Upload(file);
 
 
             // Devolver la URL como respuesta
-            return imageUrl;
+            return StatusCode(StatusCodes.Status200OK, new { url = imageUrl });
         }
-        private async Task<string> Upload(IFormFile file)
+        private string Upload(IFormFile file)
         {
-            Account account = new Account("dm2vlcipm", "937275526697616", "HeRqnltE8mTtAJRpPqc1udxv7Ro");
+            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
             Cloudinary cloudinary = new Cloudinary(account);
             cloudinary.Api.Secure = true;
 
@@ -85,11 +85,12 @@ namespace _2._0.Service.Controllers
                     File = new FileDescription(file.FileName, stream),
                     PublicId = "olympic_flag"
                 };
-                var respuesta = await cloudinary.UploadAsync(uploadParams);
+                var respuesta = cloudinary.Upload(uploadParams);
 
                 return respuesta.SecureUrl.AbsoluteUri;
             }
         }
+
 
 
 
