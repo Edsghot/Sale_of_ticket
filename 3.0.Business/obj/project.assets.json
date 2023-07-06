@@ -1210,6 +1210,7 @@
           "1.0.Helper": "1.0.0",
           "4.0.Repository": "1.0.0",
           "AutoMapper": "12.0.1",
+          "CloudinaryDotNet": "1.21.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.10",
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
@@ -3625,13 +3626,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

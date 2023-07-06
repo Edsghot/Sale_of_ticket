@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2D9D5aLK0l7SoiCVEwKgYf45Pg54SynWNzKYDSG45zZrQIhzQq/rnHiBVoov9CUSu2yDGwnA3eZXFjGBCXVnKw==",
+  "dgSpecHash": "vMXHfpTESo6Xg36+k+QeCcWgzds3UrJRPPYOD+Thp2bNOSoZy2KLcivntEHnOKaB5h0f7UpomZJNcV6UTmGeQw==",
   "success": true,
   "projectFilePath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\2.0.Service\\2.0.Service.csproj",
   "expectedPackageFiles": [
@@ -80,12 +80,5 @@
     "C:\\Users\\erick\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\2.0.Service\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

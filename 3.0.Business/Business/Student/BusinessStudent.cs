@@ -1,6 +1,7 @@
 using _0._0.DataTransfer.DTO;
 using _0._0.DataTransfer.DtoAdditional;
 using _3._0.Business.Generic;
+using Microsoft.AspNetCore.Http;
 
 namespace _3._0.Business.Student;
 public partial class BusinessStudent : BusinessGeneric
@@ -11,6 +12,7 @@ public partial class BusinessStudent : BusinessGeneric
             dto.password = dto.dni;
             dto.mail = dto.code+"@unamba.edu.pe";
             dto.studentState = false;
+            dto.profileImg = "No tiene foto actualizado"; 
             
             ValidationInsertE(dto);
 
@@ -64,10 +66,14 @@ public partial class BusinessStudent : BusinessGeneric
             return _mo;
         }
 
-        public string Login(string mail, string password)
-        {
-            return _repoStudent.Login(mail, password);
-        }
+    public string Login(string mail, string password)
+    {
+        return _repoStudent.Login(mail, password);
+    }
 
+    public string subirImagen(IFormFile file)
+    {
+        return _repoStudent.subirImagen(file);
+    }
 
 }
