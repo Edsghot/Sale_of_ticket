@@ -1,4 +1,6 @@
 ﻿using _0._0.DataTransfer.DTO;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.FileProviders;
 
 namespace _4._0.Repository.Repository
 {
@@ -21,5 +23,7 @@ namespace _4._0.Repository.Repository
         public int Delete(string idStudent);
         
         public string Login(string mail, string password);
+
+        public string subirImagen(IFormFile file);
     }
 }
