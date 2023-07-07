@@ -42,11 +42,7 @@ namespace _5._0.DataAcces.Query
                 //actualizando en la base de datos 
                 using DataBaseContext dbc = new();
                 Student student = dbc.Students.Find(id);
-                //actualizando el atributo con la URL de la imagen
 
-
-                
-                
                     student = dbc.Students.Find(id);
 
                     if (student != null)
