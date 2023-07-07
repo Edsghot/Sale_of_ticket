@@ -59,8 +59,6 @@ namespace _5._0.DataAcces.Query
                         // El estudiante no fue encontrado en la base de datos
                         return "El estudiante no fue encontrado.";
                     }
-                
-
             }
         }
 

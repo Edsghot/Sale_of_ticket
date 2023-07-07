@@ -18,7 +18,7 @@ namespace _2._0.Service.Controllers
     {
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<SoSale> Insert([FromForm] SoSale so)
+        public ActionResult<SoSale> Insert([FromForm] SoSale so,IFormFile file)
         {
             try
             {
@@ -31,8 +31,7 @@ namespace _2._0.Service.Controllers
                     return _so;
                 }
 
-                so.dtoSale.couponImg = "Hola ";
-                _so.mo = _business.Insert(so.dtoSale);
+                _so.mo = _business.Insert(so.dtoSale,file);
                 return _so;
             }catch (Exception e)
             {

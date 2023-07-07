@@ -13,23 +13,16 @@ namespace _0._0.DataTransfer.DTO
         [Required(ErrorMessage = "El campo\"idStudent\" es requerido.")]
         public string idStudent { get; set; }
 
-        [Required(ErrorMessage = "El campo\"imagen\" es requerido.")]
-        public IFormFile imagen { get;set; }
-
         [Required(ErrorMessage = "El campo\"idPeriod\" es requerido.")]
         public string idPeriod { get; set; }
 
-
-        [Required(ErrorMessage = "El campo\"idSaleDetail\" es requerido.")]
-        public string idSaleDetail { get; set; }
-
-        [Required(ErrorMessage = "El campo\"couponImg\" es requerido.")]
+        [Required(ErrorMessage = "El campo\"total\" es requerido.")]
+        public int total { get; set; }
+        public DateTime dateGo { get; set; }
         public string couponImg { get; set; }
 
         public Boolean saleState { get; set; }
-        [Required(ErrorMessage = "El campo\"total\" es requerido.")]
-
-        public int total { get; set; }
+       
 
 
         #region Parent

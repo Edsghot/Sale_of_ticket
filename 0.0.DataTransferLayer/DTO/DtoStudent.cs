@@ -6,7 +6,7 @@ namespace _0._0.DataTransfer.DTO
 {
     public class DtoStudent
     {
-        public string? idStudent{ get; set; }
+        public string idStudent{ get; set; }
 
         public string profileImg { get; set; }
 
@@ -53,6 +53,6 @@ namespace _0._0.DataTransfer.DTO
         [Required(ErrorMessage = "El campo\"code\" es requerido.")]
         [RegularExpression("^[0-9]{6}$", ErrorMessage = " \"El campo \"code\" no cumple el formato correcto\"")]
         public string code { get; set; }        
-        public List<DtoSale> childSale { get; set; }//Hijo de la entidad  
+     //   public List<DtoSale> childSale { get; set; }//Hijo de la entidad  
     }
 }
