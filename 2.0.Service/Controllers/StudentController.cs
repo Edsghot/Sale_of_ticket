@@ -62,7 +62,7 @@ namespace _2._0.Service.Controllers
         }
         [HttpPost]
         [Route("[action]")]
-        public IActionResult SubirImagen(IFormFile file, string id)
+        public IActionResult SubirImagen(IFormFile file, [FromForm] string id)
         {
             BusinessStudent businessStudent = new();
             
