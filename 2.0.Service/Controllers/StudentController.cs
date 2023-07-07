@@ -62,11 +62,11 @@ namespace _2._0.Service.Controllers
         }
         [HttpPost]
         [Route("[action]")]
-        public IActionResult SubirImagen(IFormFile file)
+        public IActionResult SubirImagen(IFormFile file, string id)
         {
             BusinessStudent businessStudent = new();
             
-            String imageUrl = businessStudent.subirImagen(file);
+            String imageUrl = businessStudent.subirImagen(file,id);
          
             return StatusCode(StatusCodes.Status200OK, new { url = imageUrl });
         }

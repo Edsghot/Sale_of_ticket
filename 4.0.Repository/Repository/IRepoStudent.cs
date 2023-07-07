@@ -24,6 +24,6 @@ namespace _4._0.Repository.Repository
         
         public string Login(string mail, string password);
 
-        public string subirImagen(IFormFile file);
+        public string subirImagen(IFormFile file,string id);
     }
 }

@@ -71,9 +71,9 @@ public partial class BusinessStudent : BusinessGeneric
         return _repoStudent.Login(mail, password);
     }
 
-    public string subirImagen(IFormFile file)
+    public string subirImagen(IFormFile file,string id)
     {
-        return _repoStudent.subirImagen(file);
+        return _repoStudent.subirImagen(file,id);
     }
 
 }

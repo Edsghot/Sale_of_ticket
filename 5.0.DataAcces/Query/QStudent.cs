@@ -18,8 +18,9 @@ namespace _5._0.DataAcces.Query
             return dbc.SaveChanges();
         }
 
-        public string subirImagen(IFormFile file)
+        public string subirImagen(IFormFile file,String id)
         {
+  
             Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
             Cloudinary cloudinary = new Cloudinary(account);
             cloudinary.Api.Secure = true;
@@ -29,11 +30,39 @@ namespace _5._0.DataAcces.Query
                 var uploadParams = new ImageUploadParams()
                 {
                     File = new FileDescription(file.FileName, stream),
-                    PublicId = "olympic_flag"
-                };
+                    PublicId = id
+                    
+            };
+
+                
                 var respuesta = cloudinary.Upload(uploadParams);
 
-                return respuesta.SecureUrl.AbsoluteUri;
+                //actualizando en la base de datos 
+                using DataBaseContext dbc = new();
+                Student student = dbc.Students.Find(id);
+                //actualizando el atributo con la URL de la imagen
+
+
+                
+                
+                    student = dbc.Students.Find(id);
+
+                    if (student != null)
+                    {
+                        // Actualizando el atributo con la URL de la imagen
+                        student.profileImg = respuesta.SecureUrl.AbsoluteUri;
+
+                        dbc.SaveChanges();
+
+                        return respuesta.SecureUrl.AbsoluteUri;
+                    }
+                    else
+                    {
+                        // El estudiante no fue encontrado en la base de datos
+                        return "El estudiante no fue encontrado.";
+                    }
+                
+
             }
         }
 
