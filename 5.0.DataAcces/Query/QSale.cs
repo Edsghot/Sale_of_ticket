@@ -57,7 +57,7 @@ namespace _5._0.DataAcces.Query
             using DataBaseContext dbc = new();
             Sale sale = dbc.Sales.Find(dto.idSale);
             sale.idStudent = dto.idStudent;
-            sale.idOpening = dto.idOpening;
+            sale.idPeriod = dto.idPeriod;
             sale.couponImg = dto.couponImg;
             sale.saleState = dto.saleState;
             return dbc.SaveChanges();

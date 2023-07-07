@@ -12,7 +12,7 @@ namespace _5._0.DataAcces.Entity
         [Key,DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string idSale { get; set; }
         public string idStudent { get; set; }
-        public string idOpening { get; set; }   
+        public string idPeriod { get; set; }   
         public string idSaleDetail { get; set; }
         public string couponImg { get; set; }
         public Boolean saleState { get; set; }

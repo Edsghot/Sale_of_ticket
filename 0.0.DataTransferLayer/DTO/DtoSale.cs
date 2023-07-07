@@ -1,5 +1,6 @@
 ﻿
 
+using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
 namespace _0._0.DataTransfer.DTO
@@ -12,8 +13,11 @@ namespace _0._0.DataTransfer.DTO
         [Required(ErrorMessage = "El campo\"idStudent\" es requerido.")]
         public string idStudent { get; set; }
 
-        [Required(ErrorMessage = "El campo\"idOpening\" es requerido.")]
-        public string idOpening { get; set; }
+        [Required(ErrorMessage = "El campo\"imagen\" es requerido.")]
+        public IFormFile imagen { get;set; }
+
+        [Required(ErrorMessage = "El campo\"idPeriod\" es requerido.")]
+        public string idPeriod { get; set; }
 
 
         [Required(ErrorMessage = "El campo\"idSaleDetail\" es requerido.")]

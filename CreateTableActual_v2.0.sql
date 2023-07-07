@@ -95,14 +95,14 @@ CREATE TABLE Sale
 ( 
 	idSale             	char(36)		NOT NULL ,
 	idStudent        	char(36)		NOT NULL ,
-	idOpening          	char(36)		NOT NULL ,	
+	idPeriod			char(36)		NOT NULL,
 	idSaleDetail		char(36)        NOT NULL,
 	couponImg           varchar(50)		NOT NULL ,
 	saleState       	bit				NOT NULL ,
 	total				int				NOT NULL,
 	PRIMARY KEY (idSale),
 	FOREIGN KEY (idStudent) REFERENCES Student(idStudent),
-	FOREIGN KEY (idOpening) REFERENCES Opening(idOpening),
+	FOREIGN KEY (idPeriod) REFERENCES Period(idPeriod),
 	FOREIGN KEY (idSaleDetail) REFERENCES SaleDetail(idSaleDetail),
 )
 go
