@@ -30,7 +30,9 @@ namespace _5._0.DataAcces.Query
                 var uploadParams = new ImageUploadParams()
                 {
                     File = new FileDescription(file.FileName, stream),
-                    PublicId = id
+                    PublicId = id,
+                    Folder = "venta_ticket/Student"
+
                     
             };
 

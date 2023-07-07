@@ -22,8 +22,4 @@
     <ProjectReference Include="..\4.0.Repository\4.0.Repository.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Query\" />
-  </ItemGroup>
-
 </Project>
