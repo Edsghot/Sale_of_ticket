@@ -97,7 +97,7 @@ CREATE TABLE Sale
 	idStudent        	char(36)		NOT NULL ,
 	idPeriod			char(36)		NOT NULL,
 	dateGo        	datetime  	 NOT NULL ,
-	couponImg           varchar(50)		NOT NULL ,
+	couponImg           varchar(500)		NOT NULL ,
 	saleState       	bit				NOT NULL ,
 	total				int				NOT NULL,
 	PRIMARY KEY (idSale),
@@ -105,6 +105,9 @@ CREATE TABLE Sale
 	FOREIGN KEY (idPeriod) REFERENCES Period(idPeriod),
 )
 go
+select Sale.couponImg, Student.code, Student.school, Student.name+' '+Student.lastName as 'nombres',Sale.saleState from Sale inner join Student on Sale.idStudent = Student.idStudent
+
+delete from Sale 
 
 
 select * from Period
