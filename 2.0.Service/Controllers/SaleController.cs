@@ -113,5 +113,30 @@ namespace _2._0.Service.Controllers
                 return _so;
             }
         }
+        [HttpPost]
+        [Route("[action]")]
+        public ActionResult<SoSale> checkState([FromForm] string id)
+        {
+            try
+            {
+                _so.mo = ValidatePartDto(id, new string[] {
+                    "idSale"
+                });
+
+                if (_so.mo.existsMessage())
+                {
+                    return _so;
+                }
+
+                _so.mo = _business.checkState(id);
+                return _so;
+            }
+            catch (Exception e)
+            {
+                _so.mo.listMessage.Add(e.Message);
+                _so.mo.exception();
+                return _so;
+            }
+        }
     }
 }
