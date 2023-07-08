@@ -2,18 +2,107 @@
 using _4._0.Repository.Repository;
 using _5._0.DataAcces.Connection;
 using _5._0.DataAcces.Entity;
+using CloudinaryDotNet.Actions;
+using CloudinaryDotNet;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace _5._0.DataAcces.Query
 {
     public class QSale : IRepoSale
     {
         //Query para realizar la inserción de venta 
-        public int Insert(DtoSale dto)
+        public string Insert(DtoSale dto)
         {
-            using DataBaseContext dbc = new();
-            dbc.Sales.Add(InitAutoMapper.mapper.Map<Sale>(dto));
-            return dbc.SaveChanges();
+            try
+            {
+                using DataBaseContext dbc = new();
+                dbc.Sales.Add(InitAutoMapper.mapper.Map<Sale>(dto));
+                dbc.SaveChanges();
+                return dto.idSale;
+            }
+            catch(Exception e)
+            {
+                return "error al subir";
+            }
         }
+        public string subirImagen(IFormFile file, String id)
+        {
+
+            Account account = new Account("dgbtcphdn", "728643729924779", "DMdxKePAodC3cJ8tXQTxUeOT1mY");
+            Cloudinary cloudinary = new Cloudinary(account);
+            cloudinary.Api.Secure = true;
+
+            using (var stream = file.OpenReadStream())
+            {
+                var uploadParams = new ImageUploadParams()
+                {
+                    File = new FileDescription(file.FileName, stream),
+                    PublicId = id,
+                    Folder = "venta_ticket/SaleTicket"
+
+
+                };
+
+
+                var respuesta = cloudinary.Upload(uploadParams);
+
+                //actualizando en la base de datos 
+                using DataBaseContext dbc = new();
+                Sale sale = dbc.Sales.Find(id);
+
+                if (sale != null)
+                {
+                    // Actualizando el atributo con la URL de la imagen
+                    sale.couponImg = respuesta.SecureUrl.AbsoluteUri;
+
+                    dbc.SaveChanges();
+
+                    return respuesta.SecureUrl.AbsoluteUri;
+                }
+                else
+                {
+                    // El estudiante no fue encontrado en la base de datos
+                    return "Error al registrar el sale";
+                }
+            }
+        }
+
+        public List<DtoSaleView> GetSale()
+        {
+            try
+            {
+                using (DataBaseContext dbc = new DataBaseContext())
+                {
+                    var query = from sale in dbc.Sales
+                                join student in dbc.Students on sale.idStudent equals student.idStudent
+                                select new DtoSaleView
+                                {
+                                    idSale = sale.idSale,
+                                    couponImg = sale.couponImg,
+                                    code = student.code,
+                                    school = student.school,
+                                    names = student.name + " " + student.lastName,
+                                    saleState = sale.saleState
+                                };
+
+                    var results = query.OrderBy(s => s.idSale).ToList();
+
+                    return results;
+                }
+            }
+            catch (Exception e)
+            {
+                // Manejo del error
+                Console.WriteLine(e.Message);
+                return null; // O devuelve una lista vacía dependiendo de tus necesidades
+            }
+        }
+
+
+
+
+
 
         //Query para realizar el listado de las ventas realizadas
         public List<DtoSale> GetAll()
@@ -60,6 +149,13 @@ namespace _5._0.DataAcces.Query
             sale.idPeriod = dto.idPeriod;
             sale.couponImg = dto.couponImg;
             sale.saleState = dto.saleState;
+            return dbc.SaveChanges();
+        }
+        public int checkState(string id)
+        {
+            using DataBaseContext dbc = new();
+            Sale sale = dbc.Sales.Find(id);
+            sale.saleState = true;
             return dbc.SaveChanges();
         }
     }

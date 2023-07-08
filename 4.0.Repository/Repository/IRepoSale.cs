@@ -1,11 +1,16 @@
 using _0._0.DataTransfer.DTO;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace _4._0.Repository.Repository
 {
     public interface IRepoSale
     {
-        public int Insert(DtoSale dto);
+        public string Insert(DtoSale dto);
+        public string subirImagen(IFormFile file, String id);
+
+
+        public List<DtoSaleView> GetSale();
 
         public List<DtoSale> GetAll();
 
@@ -14,6 +19,7 @@ namespace _4._0.Repository.Repository
         public List<DtoSale> GetById(string idSale);
 
         public int Update(DtoSale dto);
+        public int checkState(string id);
 
         public int Delete(string idSale);
     }

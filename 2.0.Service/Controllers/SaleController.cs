@@ -2,13 +2,7 @@ using _0._0.DataTransfer.DTO;
 using _2._0.Service.Generic;
 using _2._0.Service.ServiceObject;
 using _3._0.Business.Business.Sale;
-using CloudinaryDotNet.Actions;
-using CloudinaryDotNet;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace _2._0.Service.Controllers
 {
@@ -18,30 +12,37 @@ namespace _2._0.Service.Controllers
     {
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<SoSale> Insert([FromForm] SoSale so)
+        public IActionResult Insert([FromForm] SoSale so, IFormFile file)
         {
             try
             {
-               _so.mo = ValidatePartDto(so.dtoSale, new string[] {
-                    "name"
-                });
-
-                if (_so.mo.existsMessage())
-                {
-                    return _so;
-                }
-
-                _so.mo =_business.Insert(so.dtoSale);
-                return _so;
-            }catch (Exception e)
+                string id = _business.Insert(so.dtoSale);
+                string url = _business.subirImagen(file, id);
+                return StatusCode(StatusCodes.Status200OK, new { url = url });
+            }
+            catch (Exception e)
             {
-                _so.mo.listMessage.Add(e.Message);
-                _so.mo.exception();
-                return _so;
+                return StatusCode(StatusCodes.Status417ExpectationFailed, new { msg = e.InnerException?.Message ?? e.Message });
+            }
+        }
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult<List<DtoSaleView>> GetSale()
+        {
+            try
+            {
+                var (mo, listDtoSale) = _business.GetSale();
+                return Json(listDtoSale);
+            }
+            catch (Exception e)
+            {
+                return Json(new List<DtoSaleView>());
             }
         }
 
-        
+
+
+
 
         [HttpGet]
         [Route("[action]")]
@@ -59,7 +60,8 @@ namespace _2._0.Service.Controllers
             {
                 (_so.mo, _so.listDtoSale) = _business.GetAll();
                 return _so;
-            }catch (Exception e)
+            }
+            catch (Exception e)
             {
                 _so.mo.listMessage.Add(e.Message);
                 _so.mo.exception();
@@ -76,7 +78,8 @@ namespace _2._0.Service.Controllers
             {
                 _so.mo = _business.Delete(id);
                 return _so;
-            }catch (Exception e)
+            }
+            catch (Exception e)
             {
                 _so.mo.listMessage.Add(e.Message);
                 _so.mo.exception();
@@ -102,7 +105,8 @@ namespace _2._0.Service.Controllers
 
                 _so.mo = _business.Update(so.dtoSale);
                 return _so;
-            }catch (Exception e)
+            }
+            catch (Exception e)
             {
                 _so.mo.listMessage.Add(e.Message);
                 _so.mo.exception();
