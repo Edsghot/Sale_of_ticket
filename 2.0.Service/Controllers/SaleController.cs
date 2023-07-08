@@ -115,7 +115,7 @@ namespace _2._0.Service.Controllers
         }
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<SoSale> checkState([FromForm] string id)
+        public ActionResult<SoSale> CheckState([FromForm] string id)
         {
             try
             {
