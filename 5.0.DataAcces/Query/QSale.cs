@@ -54,7 +54,7 @@ namespace _5._0.DataAcces.Query
                 if (sale != null)
                 {
                     // Actualizando el atributo con la URL de la imagen
-                    sale.couponImg = respuesta.SecureUrl.AbsoluteUri;
+                    sale.couponImg = respuesta.SecureUrl.AbsoluteUri+"";
 
                     dbc.SaveChanges();
 

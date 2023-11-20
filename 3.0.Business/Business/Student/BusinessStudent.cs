@@ -1,19 +1,23 @@
 using _0._0.DataTransfer.DTO;
 using _0._0.DataTransfer.DtoAdditional;
+using _0._0.DataTransfer.Request.Student;
 using _3._0.Business.Generic;
+using _1._0.Helper;
 using Microsoft.AspNetCore.Http;
 
 namespace _3._0.Business.Student;
 public partial class BusinessStudent : BusinessGeneric
 {
-        public DtoMessage Insert(DtoStudent dto)
+        public DtoMessage Insert(InsertStudentRequest request)
         {
-            dto.idStudent = Guid.NewGuid().ToString();
-            dto.password = dto.dni;
-            dto.mail = dto.code+"@unamba.edu.pe";
-            dto.studentState = false;
-            dto.profileImg = "https://e7.pngegg.com/pngimages/640/228/png-clipart-user-profile-computer-icons-others-miscellaneous-black.png";
-        ValidationInsertE(dto);
+             var dto = request.Map<DtoStudent>();
+             dto.idStudent = Guid.NewGuid().ToString();
+             dto.password = request.dni;
+             dto.mail = request.code + "@unamba.edu.pe";
+             dto.studentState = false;
+        dto.profileImg = "https://e7.pngegg.com/pngimages/640/228/png-clipart-user-profile-computer-icons-others-miscellaneous-black.png";
+
+             ValidationInsertE(dto);
 
             if(_mo.existsMessage()){
                 return _mo;

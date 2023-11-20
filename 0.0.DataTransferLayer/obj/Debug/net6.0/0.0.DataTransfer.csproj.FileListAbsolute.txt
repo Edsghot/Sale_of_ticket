@@ -70,3 +70,15 @@ C:\Users\Jhair\Desktop\SaleOfTicket\SaleOfTicket-BK\Sale_of_ticket\0.0.DataTrans
 C:\Users\Jhair\Desktop\SaleOfTicket\SaleOfTicket-BK\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\refint\0.0.DataTransfer.dll
 C:\Users\Jhair\Desktop\SaleOfTicket\SaleOfTicket-BK\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.pdb
 C:\Users\Jhair\Desktop\SaleOfTicket\SaleOfTicket-BK\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\ref\0.0.DataTransfer.dll
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\bin\Debug\net6.0\0.0.DataTransfer.deps.json
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\bin\Debug\net6.0\0.0.DataTransfer.dll
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\bin\Debug\net6.0\0.0.DataTransfer.pdb
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.csproj.AssemblyReference.cache
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.AssemblyInfoInputs.cache
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.AssemblyInfo.cs
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.csproj.CoreCompileInputs.cache
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.dll
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\refint\0.0.DataTransfer.dll
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\0.0.DataTransfer.pdb
+D:\A_Proyectos\AppSaleOfTicket\Sale_of_ticket\0.0.DataTransferLayer\obj\Debug\net6.0\ref\0.0.DataTransfer.dll

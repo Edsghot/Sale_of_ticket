@@ -1179,6 +1179,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "0.0.DataTransfer": "1.0.0",
+          "AutoMapper": "12.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.10"
         },
         "compile": {
@@ -3543,19 +3545,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\erick\\.nuget\\packages\\": {}
+    "C:\\Users\\ledgo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
+      "projectUniqueName": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
       "projectName": "3.0.Business",
-      "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
-      "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-      "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\3.0.Business\\obj\\",
+      "projectPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\3.0.Business\\3.0.Business.csproj",
+      "packagesPath": "C:\\Users\\ledgo\\.nuget\\packages\\",
+      "outputPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\3.0.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ledgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3569,17 +3571,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
-              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
+            "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+              "projectPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj"
             },
-            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
-              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj"
+            "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj": {
+              "projectPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\1.0.Helper\\1.0.Helper.csproj"
             },
-            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
-              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj"
+            "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj": {
+              "projectPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\4.0.Repository\\4.0.Repository.csproj"
             },
-            "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
-              "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj"
+            "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj": {
+              "projectPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\5.0.DataAcces\\5.0.DataAcces.csproj"
             }
           }
         }
@@ -3623,7 +3625,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

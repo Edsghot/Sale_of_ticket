@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {}
+    "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {}
   },
   "projects": {
-    "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
+    "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "projectUniqueName": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
         "projectName": "0.0.DataTransfer",
-        "projectPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
-        "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTO_PERSONAL\\Venta_Ticket\\Sale_of_ticket\\0.0.DataTransferLayer\\obj\\",
+        "projectPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\0.0.DataTransferLayer\\0.0.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\ledgo\\.nuget\\packages\\",
+        "outputPath": "D:\\A_Proyectos\\AppSaleOfTicket\\Sale_of_ticket\\0.0.DataTransferLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ledgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

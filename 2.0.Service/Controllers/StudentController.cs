@@ -13,6 +13,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using _3._0.Business.Business.SaleDetail;
+using _0._0.DataTransfer.Request.Student;
 
 namespace _2._0.Service.Controllers
 {
@@ -74,29 +75,22 @@ namespace _2._0.Service.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<SoStudent> Insert([FromForm] SoStudent so)
+        public ActionResult<SoStudent> Insert([FromForm] InsertStudentRequest so)
         {
             try
             {
-                _so.mo = ValidatePartDto(so.dtoStudent, new string[] {
-                    "name"
-                });
-
-                if (_so.mo.existsMessage())
-                {
-                    return _so;
-                }
-
-                _so.mo = _business.Insert(so.dtoStudent);
+                 _so.mo = _business.Insert(so);
                 return _so;
-            }catch (Exception e)
+            }
+            catch (Exception ex)
             {
-                _so.mo.listMessage.Add(e.Message);
+                _so.mo.listMessage.Add(ex.Message);
                 _so.mo.exception();
                 return _so;
             }
         }
 
+        [AllowAnonymous]
         [HttpGet]
         [Route("[action]")]
         public ActionResult<SoStudent> GetAll()

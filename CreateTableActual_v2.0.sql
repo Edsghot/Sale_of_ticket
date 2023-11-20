@@ -1,6 +1,6 @@
-CREATE DATABASE SaleTicket
+CREATE DATABASE appSaleTicket
 GO
-USE SaleTicket
+USE appSaleTicket
 GO
 
 select * from Product
@@ -104,6 +104,47 @@ CREATE TABLE Sale
 	FOREIGN KEY (idStudent) REFERENCES Student(idStudent),
 	FOREIGN KEY (idPeriod) REFERENCES Period(idPeriod),
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 go
 select Sale.couponImg, Student.code, Student.school, Student.name+' '+Student.lastName as 'nombres',Sale.saleState from Sale inner join Student on Sale.idStudent = Student.idStudent
 
