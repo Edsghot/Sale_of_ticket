@@ -94,13 +94,22 @@ namespace _5._0.DataAcces.Query
         public int Delete(string idStudent)
         {
             using DataBaseContext dbc = new();
+            Sale sale = dbc.Sales
+     .Where(x => x.idStudent == idStudent)
+     .SingleOrDefault();
             Student student = dbc.Students.Find(idStudent);
+
+            if(sale is null)
+            {
+                return 0;
+            }
 
             if (student is null)
             {
                 return 0;
             }
 
+            dbc.Sales.Remove(sale);
             dbc.Students.Remove(student);
             return dbc.SaveChanges();
         }

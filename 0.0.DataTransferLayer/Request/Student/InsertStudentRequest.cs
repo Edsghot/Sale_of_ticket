@@ -21,6 +21,7 @@ public record InsertStudentRequest
     [Required(ErrorMessage = "El campo\"condition\" es requerido.")]
     public bool condition { get; set; }
     [Required(ErrorMessage = "El campo\"school\" es requerido.")]
+
     public string school { get; set; }
     [Required(ErrorMessage = "El campo\"faculty\" es requerido.")]
     public string faculty { get; set; }
