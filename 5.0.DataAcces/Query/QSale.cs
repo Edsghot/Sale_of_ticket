@@ -125,6 +125,16 @@ namespace _5._0.DataAcces.Query
             return InitAutoMapper.mapper.Map<List<DtoSale>>(dbc.Sales.Where(w => w.idSale == idSale).ToList());
         }
 
+        //Query para realizar el listado de las ventas por del IdStudent
+        public List<DtoSale> GetByIdStudent(string idStudent)
+        {
+            using (DataBaseContext dbc = new DataBaseContext())
+            {
+                var sales = dbc.Sales.Where(w => w.idStudent.Equals(idStudent)).ToList();
+                return InitAutoMapper.mapper.Map<List<DtoSale>>(sales);
+            }
+        }
+
         //Query para realizar la eliminación de la venta
         public int Delete(string idSale)
         {

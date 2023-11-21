@@ -12,6 +12,7 @@ namespace _4._0.Repository.Repository
         public List<DtoSale> GetAll();
         public bool ExistsById(string idSale);
         public List<DtoSale> GetById(string idSale);
+        public List<DtoSale> GetByIdStudent(string idStudent);
         public int Update(DtoSale dto);
         public int checkState(string id);
         public int Delete(string idSale);

@@ -40,16 +40,18 @@ namespace _2._0.Service.Controllers
             }
         }
 
-
-
-
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult<List<DtoSale>> GetByIdStudent(string idStudent)
+        {
+            return _business.GetByIdStudent(idStudent);
+        }
 
         [HttpGet]
         [Route("[action]")]
         public ActionResult<List<DtoSale>> GetById(string id)
         {
-            BusinessSale businessSale = new();
-            return businessSale.GetById(id);
+            return _business.GetById(id);
         }
 
         [HttpGet]

@@ -61,6 +61,12 @@ namespace _3._0.Business.Business.Sale
            return _repoSale.GetById(id);
         }
 
+        public List<DtoSale> GetByIdStudent(string id)
+        {
+            return _repoSale.GetByIdStudent(id);
+        }
+
+
         public DtoMessage Delete(string id)
         {
             ValidationById(id);
