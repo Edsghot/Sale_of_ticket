@@ -75,7 +75,7 @@ namespace _2._0.Service.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<SoStudent> Insert([FromForm] InsertStudentRequest so)
+        public ActionResult<SoStudent> Insert([FromBody] InsertStudentRequest so)
         {
             try
             {

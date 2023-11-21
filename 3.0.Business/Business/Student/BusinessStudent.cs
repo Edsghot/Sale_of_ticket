@@ -15,7 +15,7 @@ public partial class BusinessStudent : BusinessGeneric
              dto.password = request.dni;
              dto.mail = request.code + "@unamba.edu.pe";
              dto.studentState = false;
-        dto.profileImg = "https://e7.pngegg.com/pngimages/640/228/png-clipart-user-profile-computer-icons-others-miscellaneous-black.png";
+            dto.profileImg = "https://png.pngtree.com/png-vector/20210317/ourmid/pngtree-astronauta-vector-png-image_3065419.jpg";
 
              ValidationInsertE(dto);
 
