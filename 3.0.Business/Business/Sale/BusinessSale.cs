@@ -15,7 +15,7 @@ namespace _3._0.Business.Business.Sale
         public string Insert(DtoSale dto)
         {
             dto.idSale = Guid.NewGuid().ToString();
-            dto.saleState = false;
+            dto.saleState = 0;
             dto.dateGo = DateTime.Now;
             dto.couponImg = "error al subir imagen";
 

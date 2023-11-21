@@ -155,7 +155,7 @@ namespace _5._0.DataAcces.Query
         {
             using DataBaseContext dbc = new();
             Sale sale = dbc.Sales.Find(id);
-            sale.saleState = true;
+            sale.saleState = 1;
             return dbc.SaveChanges();
         }
     }

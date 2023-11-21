@@ -15,7 +15,7 @@ namespace _0._0.DataTransfer.DTO
         public string code { get; set; }
         public string names { get; set; }
         public string school { get; set; }
-        public Boolean saleState { get; set; }
+        public int saleState { get; set; }
 
     }
 }

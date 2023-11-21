@@ -1,5 +1,6 @@
 using _0._0.DataTransfer.DTO;
 using _0._0.DataTransfer.DtoAdditional;
+using _0._0.DataTransfer.Request.Sale;
 using _3._0.Business.Generic;
 using System;
 using System.Collections.Generic;
@@ -22,13 +23,20 @@ namespace _3._0.Business.Opening
         public (DtoMessage, List<DtoOpening>) GetAll()
         {
             List<DtoOpening> listDtoOpening = _repoOpening.GetAll();
-            _mo.success();
+            
             return (_mo, listDtoOpening);
         }
 
         public List<DtoOpening> GetById(string id)
         {
            return _repoOpening.GetById(id);
+        }
+
+        public void DecreaseQuantity(DecreaseQuantityRequest request)
+        {
+
+             _repoOpening.DecreaseQuantity(request.idOpening,request.idSale);
+             
         }
 
         public DtoMessage Delete(string id){

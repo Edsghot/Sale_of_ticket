@@ -15,5 +15,7 @@ namespace _4._0.Repository.Repository
         public int Update(DtoOpening dto);
 
         public int Delete(string idOpening);
+
+        public void DecreaseQuantity(string idOpening, string idSale);
     }
 }

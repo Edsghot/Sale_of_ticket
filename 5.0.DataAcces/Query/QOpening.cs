@@ -7,6 +7,7 @@ namespace _5._0.DataAcces.Query
 {
     public class QOpening : IRepoOpening
     {
+        
         //Query para realizar la inserción de apertura
         public int Insert(DtoOpening dto)
         {
@@ -61,6 +62,28 @@ namespace _5._0.DataAcces.Query
             opening.openState = dto.openState;
             opening.idPeriod = dto.idPeriod;
             return dbc.SaveChanges();
+        }
+
+        //Query para decrementar la cantidad de 
+        public void DecreaseQuantity(string idOpening, string idSale)
+        {
+            using DataBaseContext dbc = new();
+
+            var opening = dbc.Openings.Find(idOpening);
+            var sale = dbc.Sales.Find(idSale);
+
+            if(opening.quantity > 0)
+            {
+                opening.quantity -= 1;
+                sale.saleState = 2;
+                dbc.SaveChanges();
+            }
+            else if(opening.priorityQuantity > 0)
+            {
+                opening.priorityQuantity -= 1;
+                sale.saleState = 2;
+                dbc.SaveChanges();
+            }
         }
     }
 }

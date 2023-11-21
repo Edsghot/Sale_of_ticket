@@ -15,7 +15,7 @@ namespace _5._0.DataAcces.Entity
         public string idPeriod { get; set; }
         public DateTime dateGo { get; set; }
         public string couponImg { get; set; }
-        public Boolean saleState { get; set; }
+        public int saleState { get; set; }
         public int total { get; set; }
         #endregion
 

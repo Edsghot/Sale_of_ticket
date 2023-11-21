@@ -21,7 +21,7 @@ namespace _0._0.DataTransfer.DTO
         public DateTime dateGo { get; set; }
         public string couponImg { get; set; }
 
-        public Boolean saleState { get; set; }
+        public int saleState { get; set; }
        
 
 

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using _0._0.DataTransfer.DTO;
+using _0._0.DataTransfer.Request.Sale;
 using _2._0.Service.Generic;
 using _2._0.Service.ServiceObject;
 using _3._0.Business.Opening;
@@ -16,6 +17,7 @@ namespace _2._0.Service.Controllers
     [Route("[controller]")]
     public class OpeningController : ControllerGeneric<SoOpening, BusinessOpening>
     {
+
         [HttpPost]
         [Route("[action]")]
         public ActionResult<SoOpening> Insert([FromForm] SoOpening so)
@@ -47,6 +49,21 @@ namespace _2._0.Service.Controllers
         {
             BusinessOpening businessOpening = new();
             return businessOpening.GetById(id);
+        }
+
+        [HttpPost]
+        [Route("[action]")]
+        public ActionResult DecreaseQuantity([FromBody] DecreaseQuantityRequest request)
+        {
+            try
+            {
+                _business.DecreaseQuantity(request);
+                return Ok("Se termino correctamente");
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Ocurrió un error al disminuir la cantidad. Por favor, inténtalo de nuevo.");
+            }
         }
 
         [HttpGet]
