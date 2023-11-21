@@ -99,11 +99,6 @@ namespace _5._0.DataAcces.Query
      .SingleOrDefault();
             Student student = dbc.Students.Find(idStudent);
 
-            if(sale is null)
-            {
-                return 0;
-            }
-
             if (student is null)
             {
                 return 0;
