@@ -104,6 +104,7 @@ namespace _2._0.Service.Controllers
         [Route("[action]")]
         public ActionResult<List<DtoAdministrator>> GetById(string id)
         {
+
             BusinessAdministrator businessAdministrator = new();
             return businessAdministrator.GetById(id);
         }
