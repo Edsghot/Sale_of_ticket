@@ -28,7 +28,10 @@ namespace _3._0.Business.Business.Sale
             return _repoSale.subirImagen(file, id);
         }
 
-
+        public void ModifyStateFail(string idSale)
+        {
+           _repoSale.ModifyStateFail(idSale);
+        }
 
 
         public (DtoMessage, List<DtoSale>) GetAll()

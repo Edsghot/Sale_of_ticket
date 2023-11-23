@@ -56,6 +56,23 @@ namespace _2._0.Service.Controllers
 
         [HttpGet]
         [Route("[action]")]
+        public ActionResult<List<DtoSale>> ModifyStateFail(string idSale)
+        {
+            try
+            {
+                _business.ModifyStateFail(idSale);
+
+                return Ok("Se realizo correctamente");
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status417ExpectationFailed, new { msg = e.InnerException?.Message ?? e.Message });
+            }
+            
+        }
+
+        [HttpGet]
+        [Route("[action]")]
         public ActionResult<SoSale> GetAll()
         {
             try

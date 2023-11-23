@@ -14,18 +14,23 @@ namespace _5._0.DataAcces.Query
         //Query para realizar la inserción de venta 
         public string Insert(DtoSale dto)
         {
-            try
-            {
+ 
                 using DataBaseContext dbc = new();
                 dbc.Sales.Add(InitAutoMapper.mapper.Map<Sale>(dto));
                 dbc.SaveChanges();
                 return dto.idSale;
-            }
-            catch(Exception e)
-            {
-                return "error al subir";
-            }
+
+
         }
+
+        public void ModifyStateFail(string idSale)
+        {
+            using DataBaseContext dbc = new();
+            Sale sale = dbc.Sales.Find(idSale);
+            sale.saleState = 3;
+            dbc.SaveChanges();
+        }
+
         public string subirImagen(IFormFile file, String id)
         {
 
@@ -165,7 +170,7 @@ namespace _5._0.DataAcces.Query
         {
             using DataBaseContext dbc = new();
             Sale sale = dbc.Sales.Find(id);
-            sale.saleState = 1;
+            sale.saleState = 2;
             return dbc.SaveChanges();
         }
     }
