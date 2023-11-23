@@ -7,5 +7,7 @@ namespace _2._0.Service.ServiceObject
         public DtoSale dtoSale { get; set; } = default!;
         public List<DtoSale> listDtoSale { get; set; } = default!;
         public List<string> listGetSale { get; set; } = default!;
+
+        public DtoTicket ticket { get; set; } = default!;
     }
 }

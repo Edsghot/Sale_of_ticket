@@ -6,6 +6,7 @@ using CloudinaryDotNet.Actions;
 using CloudinaryDotNet;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
 
 namespace _5._0.DataAcces.Query
 {
@@ -173,5 +174,27 @@ namespace _5._0.DataAcces.Query
             sale.saleState = 2;
             return dbc.SaveChanges();
         }
+
+        public DtoTicket GetTicket(string idStudent)
+        {
+            using DataBaseContext dbc = new();
+            Student student = dbc.Students.Find(idStudent);
+
+            var sale = dbc.Sales.Where(w => w.idStudent.Equals(student.idStudent)).First();
+
+            return new DtoTicket
+            {
+                total = sale.total,
+                dateGo = sale.dateGo,
+                name = student.name,
+                lastName = student.lastName,
+                school = student.school,
+                faculty = student.faculty,
+                code = student.code
+            };
+
+
+        }
+
     }
 }

@@ -58,6 +58,10 @@ namespace _3._0.Business.Business.Sale
             }
         }
 
+        public DtoTicket GetTicket(string idStudent)
+        {
+           return _repoSale.GetTicket(idStudent);
+        }
 
         public List<DtoSale> GetById(string id)
         {

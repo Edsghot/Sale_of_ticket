@@ -56,6 +56,21 @@ namespace _2._0.Service.Controllers
 
         [HttpGet]
         [Route("[action]")]
+        public ActionResult<DtoTicket> GetTicket(string idStudent)
+        {  
+            try
+            {
+                return _business.GetTicket(idStudent);
+
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status417ExpectationFailed, new { msg = e.InnerException?.Message ?? e.Message });
+            }
+        }
+
+        [HttpGet]
+        [Route("[action]")]
         public ActionResult<List<DtoSale>> ModifyStateFail(string idSale)
         {
             try

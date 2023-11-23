@@ -17,5 +17,6 @@ namespace _4._0.Repository.Repository
         public int checkState(string id);
         public int Delete(string idSale);
         public void ModifyStateFail(string idSale);
+        public DtoTicket GetTicket(string idStudent);
     }
 }
