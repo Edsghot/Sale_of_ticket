@@ -2,7 +2,9 @@ using _0._0.DataTransfer.DTO;
 using _2._0.Service.Generic;
 using _2._0.Service.ServiceObject;
 using _3._0.Business.Business.Sale;
+using CloudinaryDotNet;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 
 namespace _2._0.Service.Controllers
 {
@@ -123,28 +125,21 @@ namespace _2._0.Service.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<SoSale> Update([FromForm] SoSale so)
+        public ActionResult Update([FromForm] SoSale so, IFormFile file)
         {
             try
             {
-                _so.mo = ValidatePartDto(so.dtoSale, new string[] {
-                    "idSale",
-                    "name"
-                });
+                so.dtoSale.couponImg = "url vacio";
+                so.dtoSale.saleState = 1;
+                _business.Update(so.dtoSale);
+                string url = _business.subirImagen(file,so.dtoSale.idSale);
 
-                if (_so.mo.existsMessage())
-                {
-                    return _so;
-                }
 
-                _so.mo = _business.Update(so.dtoSale);
-                return _so;
+                return StatusCode(StatusCodes.Status200OK, new { url = url });
             }
             catch (Exception e)
             {
-                _so.mo.listMessage.Add(e.Message);
-                _so.mo.exception();
-                return _so;
+                return StatusCode(StatusCodes.Status417ExpectationFailed, new { msg = e.InnerException?.Message ?? e.Message });
             }
         }
         [HttpPost]
